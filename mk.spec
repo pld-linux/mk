@@ -1,14 +1,14 @@
 Summary:	Make replacement from Plan 9
 Summary(pl):	Zamiennik make z Plan 9
 Name:		mk
-Version:	1.4
+Version:	1.5
 Epoch:		1
 Release:	1
 License:	distributable
 Group:		Development/Building
 Vendor:		Norman Ramsey <nr@eecs.harvard.edu>
 Source0:	http://www.cminusminus.org/download/%{name}-%{version}.tar.gz
-# Source0-md5:	a7ce754eee8b5125209cdbd68cf3a4ce
+# Source0-md5:	713b737855f84005bfb2821aba87fcce
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
