@@ -1,14 +1,14 @@
 Summary:	Make replacement from Plan 9
 Summary(pl):	Zamiennik make z Plan 9
 Name:		mk
-Version:	1.2
+Version:	1.3
 Epoch:		1
 Release:	1
 License:	distributable
 Group:		Development/Building
 Vendor:		Norman Ramsey <nr@eecs.harvard.edu>
 Source0:	http://www.cminusminus.org/download/%{name}-%{version}.tar.gz
-# Source0-md5:	be7daac87624ea709cca27645ae52752
+# Source0-md5:	b8c5b1beadecfb9a0330c27db8f14f44
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -23,7 +23,8 @@ u¿ywany do budowania QC--.
 %setup -q 
 
 %build
-%{__make} CC="%{__cc} %{rpmcflags} -ansi"
+%{__make} \
+	 CC="%{__cc} %{rpmcflags} -ansi"
 
 %install
 rm -rf $RPM_BUILD_ROOT
