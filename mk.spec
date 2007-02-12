@@ -1,5 +1,5 @@
 Summary:	Make replacement from Plan 9
-Summary(pl):	Zamiennik make z Plan 9
+Summary(pl.UTF-8):   Zamiennik make z Plan 9
 Name:		mk
 Version:	1.5
 Epoch:		1
@@ -15,9 +15,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Yet another make(1) replacement. This one comes from Plan 9, and is
 used to build QC--.
 
-%description -l pl
+%description -l pl.UTF-8
 Jeszcze jeden zamiennik make(1). Pochodzi z systemu Plan 9, i jest
-uøywany do budowania QC--.
+u≈ºywany do budowania QC--.
 
 %prep
 %setup -q 
