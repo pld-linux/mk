@@ -1,5 +1,5 @@
 Summary:	Make replacement from Plan 9
-Summary(pl.UTF-8):   Zamiennik make z Plan 9
+Summary(pl.UTF-8):	Zamiennik make z Plan 9
 Name:		mk
 Version:	1.5
 Epoch:		1
